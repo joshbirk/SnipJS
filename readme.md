@@ -9,6 +9,7 @@ for NPM modules).
 To use:
 
 <OL> 
+	<LI> After installing, add "require('snip')"
 	<LI> Create a root level directory called "snips". </LI>
 	<LI> Place HTML in "snips" you want to include into other pages. </LI>
 	<LI> Place comments in the HTML you want to have the snips included in like this:<BR />
