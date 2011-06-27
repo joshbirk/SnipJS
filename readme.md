@@ -17,11 +17,11 @@ To use:
 	<LI> In where you are routing HTML, "snip" incoming data.  Like so:
 	
 	<P>
-	fs.readFile('views/index.html', 'utf8', function(err, data){
-    	res.writeHead(200, {'Content-Type':'text/html'});  
-    	res.write(snip.snip(data));  
-    	res.end();
-  		});
+	fs.readFile('views/index.html', 'utf8', function(err, data){<BR />
+    	res.writeHead(200, {'Content-Type':'text/html'});  <BR />
+    	res.write(snip.snip(data));  <BR />
+    	res.end();<BR />
+  		});<BR />
   	</P>
 	
 	
