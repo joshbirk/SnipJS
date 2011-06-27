@@ -12,7 +12,7 @@ To use:
 	<LI> Create a root level directory called "snips". </LI>
 	<LI> Place HTML in "snips" you want to include into other pages. </LI>
 	<LI> Place comments in the HTML you want to have the snips included in like this:<BR />
-		<I>&laquo;!-- snip:html/header.html --!&raquo;</I><BR />
+		<I>&lt;!-- snip:html/header.html --&gt;</I><BR />
 		 While keeping the spacing the same as above, this comment would bring "header.html" from the "html" directory in "snips" to the page. </LI>
 </OL>
 
