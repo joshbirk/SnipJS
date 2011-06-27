@@ -1,5 +1,5 @@
 <H1>Snip</H1>
-Snip is a ridiculously simple Node module to include client side files into other files (essentially the same as Server Side Includes in PHP). 
+Snip is a ridiculously simple Node module to include client side files into other files (essentially the same as Server Side Includes with Apache). 
 There might be, and probably are, other modules which inlcude this functionality and a lot more - but I needed it for some demo code, was curious if 
 I could get it to work in a couple hours as an experiment ... so here it is.
 
