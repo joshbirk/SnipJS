@@ -14,6 +14,19 @@ To use:
 	<LI> Place comments in the HTML you want to have the snips included in like this:<BR />
 		<I>&lt;!-- snip:html/header.html --&gt;</I><BR />
 		 While keeping the spacing the same as above, this comment would bring "header.html" from the "html" directory in "snips" to the page. </LI>
+	<LI> In where you are routing HTML, "snip" incoming data.  Like so:
+	
+	<P>
+	fs.readFile('views/index.html', 'utf8', function(err, data){
+    	res.writeHead(200, {'Content-Type':'text/html'});  
+    	res.write(snip.snip(data));  
+    	res.end();
+  		});
+  	</P>
+	
+	
+	</LI>
+	
 </OL>
 
 That's it.  Catch me on twitter @joshbirk if you have any questions.
